@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h2>Admin – Add Questions</h2>
+
+<form method="post">
+    <input name="question" placeholder="Question" required><br>
+    <input name="opt1" placeholder="Option 1" required><br>
+    <input name="opt2" placeholder="Option 2" required><br>
+    <input name="opt3" placeholder="Option 3" required><br>
+    <input name="opt4" placeholder="Option 4" required><br>
+    <input name="answer" placeholder="Correct Answer" required><br><br>
+
+    <button type="submit">Add Question</button>
+</form>
+
+<a href="/">Back to Role Selection</a>
+
+</body>
+</html>

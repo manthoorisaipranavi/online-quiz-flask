@@ -1,0 +1,91 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f5f9;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Headings */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Card style container */
+form {
+    background-color: #ffffff;
+    width: 420px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+input[type="text"], input[name] {
+    width: 90%;
+    padding: 10px;
+    margin: 7px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Radio buttons spacing */
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Role selection buttons spacing */
+a button {
+    margin: 10px;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Quiz question spacing */
+p {
+    font-size: 16px;
+    color: #444;
+    margin: 12px 0;
+}
+
+/* Result highlight */
+.score {
+    font-size: 22px;
+    color: green;
+    font-weight: bold;
+}
